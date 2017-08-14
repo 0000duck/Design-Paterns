@@ -7,8 +7,9 @@ namespace UnitTests
     public class AdapterTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod()
         {
+
         }
     }
 }
