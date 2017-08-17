@@ -53,6 +53,12 @@
     <Compile Include="AdapterTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Design-Paterns\Main\Main.csproj">
+      <Project>{1227BDCE-29FD-4758-B8FE-98EC01117098}</Project>
+      <Name>Main</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
