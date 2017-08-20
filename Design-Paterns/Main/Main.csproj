@@ -40,13 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adapter\ISocket.cs" />
-    <Compile Include="Adapter\SocketAdapter.cs" />
-    <Compile Include="Adapter\ISocketAdapter.cs" />
-    <Compile Include="Adapter\Socket.cs" />
+    <Compile Include="Structural Patterns\Adapter\ISocket.cs" />
+    <Compile Include="Structural Patterns\Adapter\SocketAdapter.cs" />
+    <Compile Include="Structural Patterns\Adapter\ISocketAdapter.cs" />
+    <Compile Include="Structural Patterns\Adapter\Socket.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Behavioral Patterns\" />
+    <Folder Include="Creational Patterns\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

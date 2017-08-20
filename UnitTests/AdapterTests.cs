@@ -1,4 +1,4 @@
-﻿using Main.Adapter;
+﻿using Main.Structural_Patterns.Adapter;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace UnitTests
         [TestMethod]
         public void TestSocketAdapterShouldReturn12Volt()
         {
-            var socket = new Main.Adapter.Socket();
+            var socket = new Main.Structural_Patterns.Adapter.Socket();
             ISocketAdapter adapter = new SocketAdapter(socket);
             var result = adapter.Get12Volt();
             Assert.AreEqual(12, result);

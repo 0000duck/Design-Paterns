@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Main.Adapter
+namespace Main.Structural_Patterns.Adapter
 {
-    public interface ISocket
+    public interface ISocketAdapter
     {
-        int GetVolt();
+        int Get12Volt();
     }
 }
