@@ -47,6 +47,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural Patterns\Bridge Patern\Formater.cs" />
     <Compile Include="Structural Patterns\Bridge Patern\TeamMember.cs" />
+    <Compile Include="Structural Patterns\Builder Patern\VehicleMaker.cs" />
+    <Compile Include="Structural Patterns\Builder Patern\IVehicleBuilder.cs" />
+    <Compile Include="Structural Patterns\Builder Patern\CarBuilder.cs" />
+    <Compile Include="Structural Patterns\Builder Patern\MotorCycleBuilder.cs" />
+    <Compile Include="Structural Patterns\Builder Patern\Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral Patterns\" />

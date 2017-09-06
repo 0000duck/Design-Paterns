@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace UnitTests
 {
     [TestClass]
-    public class AdapterTests
+    public class AdapterPaternTests
     {
         [TestMethod]
         public void TestSocketAdapterShouldReturn12Volt()
