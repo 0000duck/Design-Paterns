@@ -1,5 +1,4 @@
-﻿using Main.Structural_Patterns.Bridge_Patern;
-using Main.Structural_Patterns.Builder_Patern;
+﻿using Main.Creational_Patterns.Builder_Patern;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

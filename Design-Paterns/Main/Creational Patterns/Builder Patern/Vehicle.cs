@@ -1,4 +1,4 @@
-﻿namespace Main.Structural_Patterns.Builder_Patern
+﻿namespace Main.Creational_Patterns.Builder_Patern
 {
     public class Vehicle
     {

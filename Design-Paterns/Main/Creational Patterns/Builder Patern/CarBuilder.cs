@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Main.Structural_Patterns.Builder_Patern
+namespace Main.Creational_Patterns.Builder_Patern
 {
-    public class MotorCycleBuilder : IVehicleBuilder
+    public class CarBuilder : IVehicleBuilder
     {
         Vehicle _vehicle = new Vehicle();
 
@@ -17,22 +17,22 @@ namespace Main.Structural_Patterns.Builder_Patern
 
         public void SetBody()
         {
-            _vehicle.Body = "Small bike";
+            _vehicle.Body = "Small car";
         }
 
         public void SetEngine()
         {
-            _vehicle.Engine = "200cc";
+            _vehicle.Engine = "1300cc";
         }
 
         public void SetModel()
         {
-            _vehicle.Model = "Suzuki";
+            _vehicle.Model = "Honda";
         }
 
         public void SetTransmission()
         {
-            _vehicle.Transmission = "Mechanic";
+            _vehicle.Transmission = "Automatic";
         }
     }
 }

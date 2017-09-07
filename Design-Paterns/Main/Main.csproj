@@ -47,15 +47,35 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural Patterns\Bridge Patern\Formater.cs" />
     <Compile Include="Structural Patterns\Bridge Patern\TeamMember.cs" />
-    <Compile Include="Structural Patterns\Builder Patern\VehicleMaker.cs" />
-    <Compile Include="Structural Patterns\Builder Patern\IVehicleBuilder.cs" />
-    <Compile Include="Structural Patterns\Builder Patern\CarBuilder.cs" />
-    <Compile Include="Structural Patterns\Builder Patern\MotorCycleBuilder.cs" />
-    <Compile Include="Structural Patterns\Builder Patern\Vehicle.cs" />
+    <Compile Include="Creational Patterns\Builder Patern\VehicleMaker.cs" />
+    <Compile Include="Creational Patterns\Builder Patern\IVehicleBuilder.cs" />
+    <Compile Include="Creational Patterns\Builder Patern\CarBuilder.cs" />
+    <Compile Include="Creational Patterns\Builder Patern\MotorCycleBuilder.cs" />
+    <Compile Include="Creational Patterns\Builder Patern\Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral Patterns\" />
-    <Folder Include="Creational Patterns\" />
+    <Folder Include="Behavioral Patterns\Chain of Resp Patern\" />
+    <Folder Include="Behavioral Patterns\Command Patern\" />
+    <Folder Include="Behavioral Patterns\Interpreter Patern\" />
+    <Folder Include="Behavioral Patterns\Iterator Patern\" />
+    <Folder Include="Behavioral Patterns\Mediator Patern\" />
+    <Folder Include="Behavioral Patterns\Memento Patern\" />
+    <Folder Include="Behavioral Patterns\Null Object Patern\" />
+    <Folder Include="Behavioral Patterns\Observer Patern\" />
+    <Folder Include="Behavioral Patterns\Rules Patern\" />
+    <Folder Include="Behavioral Patterns\Specification Patern\" />
+    <Folder Include="Behavioral Patterns\State Patern\" />
+    <Folder Include="Behavioral Patterns\Strategy Patern\" />
+    <Folder Include="Behavioral Patterns\Template Method Patern\" />
+    <Folder Include="Behavioral Patterns\Visitor Patern\" />
+    <Folder Include="Creational Patterns\Abstract Factory Patern\" />
+    <Folder Include="Creational Patterns\Factory Method Patern\" />
+    <Folder Include="Creational Patterns\Singleton Patern\" />
+    <Folder Include="Structural Patterns\Composite Patern\" />
+    <Folder Include="Structural Patterns\Decorator Patern\" />
+    <Folder Include="Structural Patterns\Facade Patern\" />
+    <Folder Include="Structural Patterns\Flyweight Patern\" />
+    <Folder Include="Structural Patterns\Proxy Patern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
