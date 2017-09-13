@@ -52,6 +52,14 @@
     <Compile Include="Creational Patterns\Builder Patern\CarBuilder.cs" />
     <Compile Include="Creational Patterns\Builder Patern\MotorCycleBuilder.cs" />
     <Compile Include="Creational Patterns\Builder Patern\Vehicle.cs" />
+    <Compile Include="Structural Patterns\Decorator Patern\ICoffee.cs" />
+    <Compile Include="Structural Patterns\Decorator Patern\EspressoCoffee.cs" />
+    <Compile Include="Structural Patterns\Decorator Patern\MilkCoffeeDecorator.cs" />
+    <Compile Include="Structural Patterns\Decorator Patern\ChocolateCoffeeDecorator.cs" />
+    <Compile Include="Structural Patterns\Flyweight Patern\IReport.cs" />
+    <Compile Include="Structural Patterns\Flyweight Patern\ReportFactory.cs" />
+    <Compile Include="Structural Patterns\Flyweight Patern\DailyReport.cs" />
+    <Compile Include="Structural Patterns\Flyweight Patern\WeeklyReport.cs" />
     <Compile Include="Structural Patterns\Proxy Patern\HighResImage.cs" />
     <Compile Include="Structural Patterns\Proxy Patern\HighResImageProxy.cs" />
     <Compile Include="Structural Patterns\Proxy Patern\IImage.cs" />
@@ -75,9 +83,7 @@
     <Folder Include="Creational Patterns\Factory Method Patern\" />
     <Folder Include="Creational Patterns\Singleton Patern\" />
     <Folder Include="Structural Patterns\Composite Patern\" />
-    <Folder Include="Structural Patterns\Decorator Patern\" />
     <Folder Include="Structural Patterns\Facade Patern\" />
-    <Folder Include="Structural Patterns\Flyweight Patern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
