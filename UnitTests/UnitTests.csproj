@@ -53,6 +53,7 @@
     <Compile Include="AdapterPaternTests.cs" />
     <Compile Include="BuilderPaternTest.cs" />
     <Compile Include="BridgePaternTest.cs" />
+    <Compile Include="CompositePaternTest.cs" />
     <Compile Include="DecoratorPaternTest.cs" />
     <Compile Include="FlyweightPaternTest.cs" />
     <Compile Include="ProxyPaternTest.cs" />

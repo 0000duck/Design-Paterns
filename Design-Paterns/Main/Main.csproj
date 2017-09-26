@@ -52,6 +52,9 @@
     <Compile Include="Creational Patterns\Builder Patern\CarBuilder.cs" />
     <Compile Include="Creational Patterns\Builder Patern\MotorCycleBuilder.cs" />
     <Compile Include="Creational Patterns\Builder Patern\Vehicle.cs" />
+    <Compile Include="Structural Patterns\Composite Patern\IItem.cs" />
+    <Compile Include="Structural Patterns\Composite Patern\Product.cs" />
+    <Compile Include="Structural Patterns\Composite Patern\Box.cs" />
     <Compile Include="Structural Patterns\Decorator Patern\ICoffee.cs" />
     <Compile Include="Structural Patterns\Decorator Patern\EspressoCoffee.cs" />
     <Compile Include="Structural Patterns\Decorator Patern\MilkCoffeeDecorator.cs" />
@@ -82,7 +85,6 @@
     <Folder Include="Creational Patterns\Abstract Factory Patern\" />
     <Folder Include="Creational Patterns\Factory Method Patern\" />
     <Folder Include="Creational Patterns\Singleton Patern\" />
-    <Folder Include="Structural Patterns\Composite Patern\" />
     <Folder Include="Structural Patterns\Facade Patern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
