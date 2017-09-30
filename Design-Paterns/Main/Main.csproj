@@ -59,6 +59,10 @@
     <Compile Include="Structural Patterns\Decorator Patern\EspressoCoffee.cs" />
     <Compile Include="Structural Patterns\Decorator Patern\MilkCoffeeDecorator.cs" />
     <Compile Include="Structural Patterns\Decorator Patern\ChocolateCoffeeDecorator.cs" />
+    <Compile Include="Structural Patterns\Facade Patern\TemperatureFacade.cs" />
+    <Compile Include="Structural Patterns\Facade Patern\WeatherService.cs" />
+    <Compile Include="Structural Patterns\Facade Patern\EnglishMetricConverter.cs" />
+    <Compile Include="Structural Patterns\Facade Patern\Models\LocalTemperature.cs" />
     <Compile Include="Structural Patterns\Flyweight Patern\IReport.cs" />
     <Compile Include="Structural Patterns\Flyweight Patern\ReportFactory.cs" />
     <Compile Include="Structural Patterns\Flyweight Patern\DailyReport.cs" />
@@ -85,7 +89,6 @@
     <Folder Include="Creational Patterns\Abstract Factory Patern\" />
     <Folder Include="Creational Patterns\Factory Method Patern\" />
     <Folder Include="Creational Patterns\Singleton Patern\" />
-    <Folder Include="Structural Patterns\Facade Patern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
