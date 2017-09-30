@@ -55,6 +55,7 @@
     <Compile Include="BridgePaternTest.cs" />
     <Compile Include="CompositePaternTest.cs" />
     <Compile Include="DecoratorPaternTest.cs" />
+    <Compile Include="FacadePaternTest.cs" />
     <Compile Include="FlyweightPaternTest.cs" />
     <Compile Include="ProxyPaternTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
