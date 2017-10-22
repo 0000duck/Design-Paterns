@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational Patterns\Singleton Patern\Singleton.cs" />
     <Compile Include="Structural Patterns\Adapter Patern\ISocket.cs" />
     <Compile Include="Structural Patterns\Adapter Patern\SocketAdapter.cs" />
     <Compile Include="Structural Patterns\Adapter Patern\ISocketAdapter.cs" />
@@ -88,7 +89,6 @@
     <Folder Include="Behavioral Patterns\Visitor Patern\" />
     <Folder Include="Creational Patterns\Abstract Factory Patern\" />
     <Folder Include="Creational Patterns\Factory Method Patern\" />
-    <Folder Include="Creational Patterns\Singleton Patern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
