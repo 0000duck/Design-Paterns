@@ -50,16 +50,16 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AdapterPaternTests.cs" />
-    <Compile Include="BuilderPaternTest.cs" />
-    <Compile Include="BridgePaternTest.cs" />
-    <Compile Include="CompositePaternTest.cs" />
-    <Compile Include="DecoratorPaternTest.cs" />
-    <Compile Include="FacadePaternTest.cs" />
-    <Compile Include="FlyweightPaternTest.cs" />
-    <Compile Include="ProxyPaternTest.cs" />
+    <Compile Include="AdapterPatternTests.cs" />
+    <Compile Include="BuilderPatternTest.cs" />
+    <Compile Include="BridgePatternTest.cs" />
+    <Compile Include="CompositePatternTest.cs" />
+    <Compile Include="DecoratorPatternTest.cs" />
+    <Compile Include="FacadePatternTest.cs" />
+    <Compile Include="FlyweightPatternTest.cs" />
+    <Compile Include="ProxyPatternTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SingletonPaternTest.cs" />
+    <Compile Include="SingletonPatternTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Design-Paterns\Main\Main.csproj">
