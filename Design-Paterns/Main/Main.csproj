@@ -40,6 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\RegularScooter.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\Scooty.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\SportsBike.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\VehicleClient.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\RegularBike.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\IScooter.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\IBike.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\HondaFactory.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\IVehicleFactory.cs" />
+    <Compile Include="Creational Patterns\Abstract Factory Pattern\VehicleType.cs" />
     <Compile Include="Creational Patterns\Factory Method Pattern\VehicleFactory.cs" />
     <Compile Include="Creational Patterns\Factory Method Pattern\VehicleType.cs" />
     <Compile Include="Creational Patterns\Factory Method Pattern\Bike.cs" />
@@ -92,7 +102,6 @@
     <Folder Include="Behavioral Patterns\Strategy Pattern\" />
     <Folder Include="Behavioral Patterns\Template Method Pattern\" />
     <Folder Include="Behavioral Patterns\Visitor Pattern\" />
-    <Folder Include="Creational Patterns\Abstract Factory Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
