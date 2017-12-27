@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral Patterns\Strategy Pattern\DeliveryCalculator.cs" />
+    <Compile Include="Behavioral Patterns\Strategy Pattern\IDeliveryCostCalculator.cs" />
+    <Compile Include="Behavioral Patterns\Strategy Pattern\OneDayDeliveryCalculator.cs" />
+    <Compile Include="Behavioral Patterns\Strategy Pattern\StandartDeliveryCalculator.cs" />
     <Compile Include="Behavioral Patterns\Visitor Pattern\PriceWithTaxVisitor.cs" />
     <Compile Include="Behavioral Patterns\Visitor Pattern\Car.cs" />
     <Compile Include="Behavioral Patterns\Visitor Pattern\Bike.cs" />
@@ -105,7 +109,6 @@
     <Folder Include="Behavioral Patterns\Rules Pattern\" />
     <Folder Include="Behavioral Patterns\Specification Pattern\" />
     <Folder Include="Behavioral Patterns\State Pattern\" />
-    <Folder Include="Behavioral Patterns\Strategy Pattern\" />
     <Folder Include="Behavioral Patterns\Template Method Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
