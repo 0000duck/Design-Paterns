@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral Patterns\Visitor Pattern\PriceWithTaxVisitor.cs" />
+    <Compile Include="Behavioral Patterns\Visitor Pattern\Car.cs" />
+    <Compile Include="Behavioral Patterns\Visitor Pattern\Bike.cs" />
+    <Compile Include="Behavioral Patterns\Visitor Pattern\DiscountVisitor.cs" />
+    <Compile Include="Behavioral Patterns\Visitor Pattern\IVisitor.cs" />
+    <Compile Include="Behavioral Patterns\Visitor Pattern\IStore.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\RegularScooter.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\Scooty.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\SportsBike.cs" />
@@ -101,7 +107,6 @@
     <Folder Include="Behavioral Patterns\State Pattern\" />
     <Folder Include="Behavioral Patterns\Strategy Pattern\" />
     <Folder Include="Behavioral Patterns\Template Method Pattern\" />
-    <Folder Include="Behavioral Patterns\Visitor Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
