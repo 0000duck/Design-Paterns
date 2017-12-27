@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral Patterns\Null Object Pattern\Order.cs" />
+    <Compile Include="Behavioral Patterns\Null Object Pattern\IDiscount.cs" />
+    <Compile Include="Behavioral Patterns\Null Object Pattern\PremiumDiscount.cs" />
+    <Compile Include="Behavioral Patterns\Null Object Pattern\NullDiscount.cs" />
     <Compile Include="Behavioral Patterns\Strategy Pattern\DeliveryCalculator.cs" />
     <Compile Include="Behavioral Patterns\Strategy Pattern\IDeliveryCostCalculator.cs" />
     <Compile Include="Behavioral Patterns\Strategy Pattern\OneDayDeliveryCalculator.cs" />
@@ -104,7 +108,6 @@
     <Folder Include="Behavioral Patterns\Iterator Pattern\" />
     <Folder Include="Behavioral Patterns\Mediator Pattern\" />
     <Folder Include="Behavioral Patterns\Memento Pattern\" />
-    <Folder Include="Behavioral Patterns\Null Object Pattern\" />
     <Folder Include="Behavioral Patterns\Observer Pattern\" />
     <Folder Include="Behavioral Patterns\Rules Pattern\" />
     <Folder Include="Behavioral Patterns\Specification Pattern\" />
