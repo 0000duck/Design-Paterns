@@ -20,7 +20,7 @@ namespace UnitTests
             var result = algorithm.GenerateScore(8, new TimeSpan(0, 1, 31));
             Assert.AreEqual(782, result);
         }
-
+        
         [TestMethod]
         public void TestShouldShouldGenerateWomensScoring()
         {
