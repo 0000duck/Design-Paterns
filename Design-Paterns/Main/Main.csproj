@@ -97,13 +97,11 @@
     <Folder Include="Behavioral Patterns\Iterator Pattern\" />
     <Folder Include="Behavioral Patterns\Mediator Pattern\" />
     <Folder Include="Behavioral Patterns\Memento Pattern\" />
-    <Folder Include="Behavioral Patterns\Null Object Pattern\" />
     <Folder Include="Behavioral Patterns\Observer Pattern\" />
     <Folder Include="Behavioral Patterns\Rules Pattern\" />
     <Folder Include="Behavioral Patterns\Specification Pattern\" />
     <Folder Include="Behavioral Patterns\State Pattern\" />
-    <Folder Include="Behavioral Patterns\Strategy Pattern\" />
-    <Folder Include="Behavioral Patterns\Visitor Pattern\" />
+    <Folder Include="Behavioral Patterns\Template Method Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
