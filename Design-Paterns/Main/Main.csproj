@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral Patterns\Template Method Pattern\WomensScoringAlgorithm.cs" />
+    <Compile Include="Behavioral Patterns\Template Method Pattern\ScoringAlgorithm.cs" />
+    <Compile Include="Behavioral Patterns\Template Method Pattern\MensScoringAlgorithm.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\RegularScooter.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\Scooty.cs" />
     <Compile Include="Creational Patterns\Abstract Factory Pattern\SportsBike.cs" />
@@ -100,7 +103,6 @@
     <Folder Include="Behavioral Patterns\Specification Pattern\" />
     <Folder Include="Behavioral Patterns\State Pattern\" />
     <Folder Include="Behavioral Patterns\Strategy Pattern\" />
-    <Folder Include="Behavioral Patterns\Template Method Pattern\" />
     <Folder Include="Behavioral Patterns\Visitor Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
