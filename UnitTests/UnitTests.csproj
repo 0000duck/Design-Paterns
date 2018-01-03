@@ -54,6 +54,7 @@
     <Compile Include="AdapterPatternTests.cs" />
     <Compile Include="BuilderPatternTest.cs" />
     <Compile Include="BridgePatternTest.cs" />
+    <Compile Include="ChainOfResponsibilityPatternTest.cs" />
     <Compile Include="CompositePatternTest.cs" />
     <Compile Include="DecoratorPatternTest.cs" />
     <Compile Include="FacadePatternTest.cs" />
