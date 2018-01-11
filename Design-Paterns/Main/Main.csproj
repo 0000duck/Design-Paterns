@@ -40,6 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral Patterns\Chain of Resp Pattern\Manager.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Resp Pattern\IRequestHandler.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Resp Pattern\ApprovalStatus.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Resp Pattern\LoanRequest.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Resp Pattern\RequestHandlerExtension.cs" />
+    <Compile Include="Behavioral Patterns\Chain of Resp Pattern\Cashier.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\IDiscount.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\NullDiscount.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\Order.cs" />
@@ -105,7 +111,6 @@
     <Compile Include="Structural Patterns\Proxy Pattern\IImage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral Patterns\Chain of Resp Pattern\" />
     <Folder Include="Behavioral Patterns\Command Pattern\" />
     <Folder Include="Behavioral Patterns\Interpreter Pattern\" />
     <Folder Include="Behavioral Patterns\Iterator Pattern\" />
