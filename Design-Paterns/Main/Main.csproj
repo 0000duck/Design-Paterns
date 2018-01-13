@@ -50,6 +50,12 @@
     <Compile Include="Behavioral Patterns\Null Object Pattern\NullDiscount.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\Order.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\PremiumDiscount.cs" />
+    <Compile Include="Behavioral Patterns\State Pattern\GreenLight.cs" />
+    <Compile Include="Behavioral Patterns\State Pattern\ITrafficLight.cs" />
+    <Compile Include="Behavioral Patterns\State Pattern\Lights.cs" />
+    <Compile Include="Behavioral Patterns\State Pattern\RedLight.cs" />
+    <Compile Include="Behavioral Patterns\State Pattern\TrafficLight.cs" />
+    <Compile Include="Behavioral Patterns\State Pattern\YellowLight.cs" />
     <Compile Include="Behavioral Patterns\Strategy Pattern\DeliveryCalculator.cs" />
     <Compile Include="Behavioral Patterns\Strategy Pattern\IDeliveryCostCalculator.cs" />
     <Compile Include="Behavioral Patterns\Strategy Pattern\OneDayDeliveryCalculator.cs" />
@@ -119,7 +125,6 @@
     <Folder Include="Behavioral Patterns\Observer Pattern\" />
     <Folder Include="Behavioral Patterns\Rules Pattern\" />
     <Folder Include="Behavioral Patterns\Specification Pattern\" />
-    <Folder Include="Behavioral Patterns\State Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
