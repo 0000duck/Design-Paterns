@@ -50,6 +50,10 @@
     <Compile Include="Behavioral Patterns\Null Object Pattern\NullDiscount.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\Order.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\PremiumDiscount.cs" />
+    <Compile Include="Behavioral Patterns\Observer Pattern\IBM.cs" />
+    <Compile Include="Behavioral Patterns\Observer Pattern\IInvestor.cs" />
+    <Compile Include="Behavioral Patterns\Observer Pattern\Investor.cs" />
+    <Compile Include="Behavioral Patterns\Observer Pattern\Stock.cs" />
     <Compile Include="Behavioral Patterns\State Pattern\GreenLight.cs" />
     <Compile Include="Behavioral Patterns\State Pattern\ITrafficLight.cs" />
     <Compile Include="Behavioral Patterns\State Pattern\Lights.cs" />
@@ -122,7 +126,6 @@
     <Folder Include="Behavioral Patterns\Iterator Pattern\" />
     <Folder Include="Behavioral Patterns\Mediator Pattern\" />
     <Folder Include="Behavioral Patterns\Memento Pattern\" />
-    <Folder Include="Behavioral Patterns\Observer Pattern\" />
     <Folder Include="Behavioral Patterns\Rules Pattern\" />
     <Folder Include="Behavioral Patterns\Specification Pattern\" />
   </ItemGroup>
