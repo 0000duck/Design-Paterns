@@ -46,6 +46,7 @@
     <Compile Include="Behavioral Patterns\Chain of Resp Pattern\LoanRequest.cs" />
     <Compile Include="Behavioral Patterns\Chain of Resp Pattern\RequestHandlerExtension.cs" />
     <Compile Include="Behavioral Patterns\Chain of Resp Pattern\Cashier.cs" />
+    <Compile Include="Behavioral Patterns\Mediator Pattern\Class1.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\IDiscount.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\NullDiscount.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\Order.cs" />
@@ -124,7 +125,6 @@
     <Folder Include="Behavioral Patterns\Command Pattern\" />
     <Folder Include="Behavioral Patterns\Interpreter Pattern\" />
     <Folder Include="Behavioral Patterns\Iterator Pattern\" />
-    <Folder Include="Behavioral Patterns\Mediator Pattern\" />
     <Folder Include="Behavioral Patterns\Memento Pattern\" />
     <Folder Include="Behavioral Patterns\Rules Pattern\" />
     <Folder Include="Behavioral Patterns\Specification Pattern\" />
