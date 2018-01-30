@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Main.Behavioral_Patterns.Mediator_Pattern
 {
-    class Class1
+    public interface IUser
     {
+        string Message { get; set; }
+        string Name { get; set; }
+
+        void SendMessage(string message);
+        void ReceiveMessage(string message);
     }
 }

@@ -1,4 +1,5 @@
-﻿using Main.Structural_Patterns.Adapter;
+﻿using Main.Behavioral_Patterns.Mediator_Pattern;
+using Main.Structural_Patterns.Adapter;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -13,70 +14,25 @@ namespace UnitTests
     public class MediatorPatternTest
     {
         [TestMethod]
-        public void Test()
+        public void ShouldReceiveCorrectMessages()
         {
-            
+            IMediator chatMediator = new ChatMediator();
+            // create users and add them to chat mediator's user list
+            IUser john = new User(chatMediator, "John");
+            IUser tina = new User(chatMediator, "Tina");
+            IUser lara = new User(chatMediator, "Lara");
+            chatMediator.AddUser(john);
+            chatMediator.AddUser(tina);
+            chatMediator.AddUser(lara);
+            // send message
+            lara.SendMessage("Hello!");
+
+            Assert.IsTrue(lara.Name == "Lara");
+            Assert.IsNull(lara.Message);
+            Assert.IsTrue(john.Message == "Hello!");
+            Assert.IsTrue(john.Name == "John");            
+            Assert.IsTrue(tina.Message == "Hello!");
+            Assert.IsTrue(tina.Name == "Tina");
         }
     }
-
-    public abstract class Group
-    {
-        protected IMediator _mediator;
-
-        public Group(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
-    }
-
-    public class GroupA : Group
-    {
-        public GroupA(IMediator mediator) : base(mediator) { }
-
-        public void Send(string msg)
-        {
-            _mediator.SendMessage(this, msg);
-        }
-
-        public void Receive(string msg)
-        {
-            Console.WriteLine("A receive message:" + msg);
-        }
-    }
-
-    public class GroupB : Group
-    {
-        public GroupB(IMediator mediator) : base(mediator) { }
-
-        public void Send(string msg)
-        {
-            _mediator.SendMessage(this, msg);
-        }
-
-        public void Receive(string msg)
-        {
-            Console.WriteLine("B receive message:" + msg);
-        }
-    }
-
-    public interface IMediator
-    {
-        void SendMessage(Group caller, string msg);
-    }
-
-    public class ChatRoom : IMediator
-    {
-        public GroupA Colleague1 { get; set; }
-
-        public GroupB Colleague2 { get; set; }
-
-        public void SendMessage(Group caller, string msg)
-        {
-            if (caller == Colleague1)
-                Colleague2.Receive(msg);
-            else
-                Colleague1.Receive(msg);
-        }
-    }
-
 }
