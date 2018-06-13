@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CommandPatternTest.cs" />
+    <Compile Include="InteratorPatternTest.cs" />
     <Compile Include="MediatorPatternTest.cs" />
     <Compile Include="ObserverPatternTest.cs" />
     <Compile Include="AbstractFactoryPatternTest.cs" />
@@ -61,7 +62,7 @@
     <Compile Include="CompositePatternTest.cs" />
     <Compile Include="DecoratorPatternTest.cs" />
     <Compile Include="FacadePatternTest.cs" />
-    <Compile Include="FactoryMethodPaternTest.cs" />
+    <Compile Include="FactoryMethodPatternTest.cs" />
     <Compile Include="FlyweightPatternTest.cs" />
     <Compile Include="NullObjectPatternTest.cs" />
     <Compile Include="ProxyPatternTest.cs" />

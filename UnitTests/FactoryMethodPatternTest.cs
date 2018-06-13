@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace UnitTests
 {
     [TestClass]
-    public class FactoryMethodPaternTest
+    public class FactoryMethodPatternTest
     {
         [TestMethod]
         public void TesteObjectShouldBeCreatedWihtoutExposingCreationLogic()

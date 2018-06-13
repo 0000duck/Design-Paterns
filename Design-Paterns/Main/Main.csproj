@@ -51,6 +51,7 @@
     <Compile Include="Behavioral Patterns\Command Pattern\ICommand.cs" />
     <Compile Include="Behavioral Patterns\Command Pattern\Light.cs" />
     <Compile Include="Behavioral Patterns\Command Pattern\Switch.cs" />
+    <Compile Include="Behavioral Patterns\Iterator Pattern\Class1.cs" />
     <Compile Include="Behavioral Patterns\Mediator Pattern\ChatMediator.cs" />
     <Compile Include="Behavioral Patterns\Mediator Pattern\IMediator.cs" />
     <Compile Include="Behavioral Patterns\Mediator Pattern\IUser.cs" />
@@ -131,7 +132,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behavioral Patterns\Interpreter Pattern\" />
-    <Folder Include="Behavioral Patterns\Iterator Pattern\" />
     <Folder Include="Behavioral Patterns\Memento Pattern\" />
     <Folder Include="Behavioral Patterns\Rules Pattern\" />
     <Folder Include="Behavioral Patterns\Specification Pattern\" />
