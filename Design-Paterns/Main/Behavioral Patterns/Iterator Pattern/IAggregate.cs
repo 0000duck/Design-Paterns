@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Main.Behavioral_Patterns.Iterator_Pattern
 {
-    public interface Aggregate
+    public interface IAggregate
     {
         Iterator CreateIterator();
     }

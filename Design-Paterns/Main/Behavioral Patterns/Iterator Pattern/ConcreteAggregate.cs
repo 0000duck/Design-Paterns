@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Main.Behavioral_Patterns.Iterator_Pattern
 {
-    public class ConcreteAggregate : Aggregate
+    public class ConcreteAggregate : IAggregate
     {
         private ArrayList items = new ArrayList();
 
@@ -30,4 +31,6 @@ namespace Main.Behavioral_Patterns.Iterator_Pattern
             items.Add(o);
         }
     }
+
+
 }
