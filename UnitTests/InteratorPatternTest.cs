@@ -11,22 +11,28 @@ namespace UnitTests
     [TestClass]
     public class InteratorPatternTest
     {
+        ConcreteAggregate _aggr = new ConcreteAggregate();
+        [TestInitialize]
+        public void Init()
+        {            
+            _aggr.Add("One");
+            _aggr.Add("Two");
+            _aggr.Add("Three");            
+        }
         [TestMethod]
         public void ShouldInterateContainer()
         {
-            ConcreteAggregate aggr = new ConcreteAggregate();
-            aggr.Add("One");
-            aggr.Add("Two");
-            aggr.Add("Three");
-            aggr.Add("Four");
-            aggr.Add("Five");
-
-            Iterator iterator = aggr.CreateIterator();
-            while (iterator.Next())
-            {
-                string item = (string)iterator.Current;
-                    Console.WriteLine(item);
-            }            
+            Iterator iterator = _aggr.CreateIterator();
+            iterator.Next();
+            string item = (string)iterator.Current;
+            Assert.AreEqual(item, "One");
+            iterator.Next();
+            item = (string)iterator.Current;
+            Assert.AreEqual(item, "Two");
+            iterator.Next();
+            item = (string)iterator.Current;
+            Assert.AreEqual(item, "Three");
+            Assert.IsFalse(iterator.Next());
         }
     }
 }
