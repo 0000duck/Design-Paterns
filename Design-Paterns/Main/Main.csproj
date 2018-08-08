@@ -136,8 +136,6 @@
   <ItemGroup>
     <Folder Include="Behavioral Patterns\Interpreter Pattern\" />
     <Folder Include="Behavioral Patterns\Memento Pattern\" />
-    <Folder Include="Behavioral Patterns\Rules Pattern\" />
-    <Folder Include="Behavioral Patterns\Specification Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

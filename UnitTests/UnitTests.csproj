@@ -69,9 +69,7 @@
     <Compile Include="NullObjectPatternTest.cs" />
     <Compile Include="ProxyPatternTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RulesPatternTest.cs" />
     <Compile Include="SingletonPatternTest.cs" />
-    <Compile Include="SpecificationPatternTest.cs" />
     <Compile Include="TemplatePatternTest.cs" />
     <Compile Include="StatePatternTest.cs" />
     <Compile Include="VisitorPatternTest.cs" />
