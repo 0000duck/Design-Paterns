@@ -51,6 +51,9 @@
     <Compile Include="Behavioral Patterns\Command Pattern\ICommand.cs" />
     <Compile Include="Behavioral Patterns\Command Pattern\Light.cs" />
     <Compile Include="Behavioral Patterns\Command Pattern\Switch.cs" />
+    <Compile Include="Behavioral Patterns\Interpreter Pattern\Context.cs" />
+    <Compile Include="Behavioral Patterns\Interpreter Pattern\Expression.cs" />
+    <Compile Include="Behavioral Patterns\Interpreter Pattern\Interpreter.cs" />
     <Compile Include="Behavioral Patterns\Iterator Pattern\IAggregate.cs" />
     <Compile Include="Behavioral Patterns\Iterator Pattern\ConcreteAggregate.cs" />
     <Compile Include="Behavioral Patterns\Iterator Pattern\ConcreteIterator.cs" />
@@ -134,7 +137,6 @@
     <Compile Include="Structural Patterns\Proxy Pattern\IImage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral Patterns\Interpreter Pattern\" />
     <Folder Include="Behavioral Patterns\Memento Pattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
