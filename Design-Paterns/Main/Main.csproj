@@ -62,6 +62,9 @@
     <Compile Include="Behavioral Patterns\Mediator Pattern\IMediator.cs" />
     <Compile Include="Behavioral Patterns\Mediator Pattern\IUser.cs" />
     <Compile Include="Behavioral Patterns\Mediator Pattern\User.cs" />
+    <Compile Include="Behavioral Patterns\Memento Pattern\FoodSupplier.cs" />
+    <Compile Include="Behavioral Patterns\Memento Pattern\FoodSupplierMemento.cs" />
+    <Compile Include="Behavioral Patterns\Memento Pattern\SupplierMemory.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\IDiscount.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\NullDiscount.cs" />
     <Compile Include="Behavioral Patterns\Null Object Pattern\Order.cs" />
@@ -136,9 +139,7 @@
     <Compile Include="Structural Patterns\Proxy Pattern\HighResImageProxy.cs" />
     <Compile Include="Structural Patterns\Proxy Pattern\IImage.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Behavioral Patterns\Memento Pattern\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
