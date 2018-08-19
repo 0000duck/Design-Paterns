@@ -1,12 +1,5 @@
 ﻿using Main.Behavioral_Patterns.Mediator_Pattern;
-using Main.Structural_Patterns.Adapter;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UnitTests
 {

@@ -1,5 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Main.Structural_Patterns.Flyweight_Pattern;
+﻿using Main.Structural_Patterns.Flyweight_Pattern;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests
 {

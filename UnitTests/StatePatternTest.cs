@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Main.Behavioral_Patterns.State_Pattern;
-using Main.Behavioral_Patterns.Visitor_Pattern;
+﻿using Main.Behavioral_Patterns.State_Pattern;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests

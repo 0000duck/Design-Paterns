@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Main.Creational_Patterns.Builder_Pattern
+﻿namespace Main.Creational_Patterns.Builder_Pattern
 {
     public class VehicleMaker
     {

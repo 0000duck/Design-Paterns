@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Main.Behavioral_Patterns.Null_Object_Pattern;
+﻿using Main.Behavioral_Patterns.Null_Object_Pattern;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests

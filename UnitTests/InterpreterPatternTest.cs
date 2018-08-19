@@ -1,5 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Main.Behavioral_Patterns.Interpreter_Pattern;
+﻿using Main.Behavioral_Patterns.Interpreter_Pattern;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests
 {

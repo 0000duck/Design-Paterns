@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Main.Structural_Patterns.Bridge_Pattern
+﻿namespace Main.Structural_Patterns.Bridge_Pattern
 {
     public interface ITeamMember
     {
